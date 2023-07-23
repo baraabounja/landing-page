@@ -1,0 +1,170 @@
+
+body {
+    font-family: "Work Sans", sans-serif;
+     overflow-x: hidden;
+    width: 100vw;
+}
+
+.hbk {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-color {
+    background-color: #f6f6f6;
+}
+
+.fs1 {
+    font-size: 1.1rem;
+}
+
+.menu-list {
+    min-width: 12rem;
+    direction: ltr;
+}
+
+.menu-list-li {
+    transition: all ease-in-out 0.5s;
+    text-decoration: none;
+    color: #333;
+}
+
+.list-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.list-link:hover {
+    color: #333;
+}
+
+.menu-list-li:hover {
+    padding-left: 2rem;
+
+}
+
+.navicon {
+    display: none;
+    transform: translate(-5%, 0%);
+}
+
+.naviconH {
+    direction: rtl;
+}
+
+.naviconH:hover .navicon {
+    display: block;
+}
+
+.emailHover:hover {
+    color: #10cab7;
+}
+
+.navLogo {
+    width: 3.75rem;
+
+}
+
+.grup-width {
+    width: 22.5rem;
+}
+
+header {
+    background-image: url('./img/landing.jpg');
+    background-size: cover;
+    line-height: 3rem;
+}
+
+.header-div {
+    width: 20rem;
+}
+
+.green-color {
+    color: #10cab7;
+}
+
+.H-heading {
+    color: #ebeced;
+    font-size: 6.25rem;
+}
+
+.f-color {
+    color: #797979;
+}
+
+.mar {
+    margin: -35px;
+}
+
+.imageSize {
+    width: 16.25rem;
+    top: 50%;
+    right: 100%;
+    transform: translate(20%, -50%);
+}
+
+.imageSize2 {
+    width: 16rem;
+    height: 23.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(15%, 10%);
+}
+
+.image {
+    width: 6.25rem;
+    height: 28rem;
+    background-color: #2c4755;
+}
+
+.ggg {
+    font-weight: 800;
+}
+
+.f7-color {
+    color: #777777;
+}
+.md-image{
+    width: 15.5rem;
+}
+.p4-color {
+    color: #444444;
+}
+
+.divSize {
+    max-width: 23rem;
+}
+
+.boxWidth {
+    width: 53rem;
+}
+
+@media (max-width: 767px) {
+    html {
+    font-family: "Work Sans", sans-serif;
+    overflow-x: hidden;
+    width: 100vw;
+    }
+    .H-heading {
+        font-size: 3.75rem;
+        padding-top: 1rem;
+        padding-bottom: 0.7rem;
+        
+        
+        font-weight: 800;
+    }
+    .md-wrap{
+    flex-direction: column;
+    text-align: center;
+   }
+   .md-margin{
+    margin-top: 1.7rem;
+   }
+ .md-flex{
+    display: flex;
+    justify-content: center;
+ }
+   .md-center{
+    text-align: center;
+   }
+}
